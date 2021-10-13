@@ -1,7 +1,9 @@
 module.exports = {
   app: {
     px: "_mame",
-    token: "ODk3NjgzNTI3OTAxMDIwMTcx.YWZO7w.D9U9DtPKepBOq80Ub8NRYc3fXaA",
+    token:
+      process.env.discordtoken ||
+      "ODk3NjgzNTI3OTAxMDIwMTcx.YWZO7w.D9U9DtPKepBOq80Ub8NRYc3fXaA",
     playing: "by Toxic Femininity ❤️",
   },
 
