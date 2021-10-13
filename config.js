@@ -1,7 +1,7 @@
 module.exports = {
   app: {
     px: "_mame",
-    token: "ODk3NjgzNTI3OTAxMDIwMTcx.YWZO7w.uMjkSnZ8JpbaqBGYMdAkPv3Necw",
+    token: "ODk3NjgzNTI3OTAxMDIwMTcx.YWZO7w.bABJCJB86ciFDUgTbfMOvmPC7IA",
     playing: "by Toxic Femininity ❤️",
   },
 
