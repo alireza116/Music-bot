@@ -23,6 +23,10 @@ global.player = new Player(client, client.config.opt.discordPlayer);
 require("./src/loader");
 require("./src/events");
 
+app.get("/", (req, res) => {
+  res.send("use the bot in the discord channel when you see this message!");
+});
+
 client.login(client.config.app.token);
 
 app.listen(port, () => {
