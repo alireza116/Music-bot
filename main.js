@@ -4,7 +4,7 @@ const express = require("express");
 
 const app = express();
 
-const port = process.env.port || 4000;
+const port = process.env.PORT || 4000;
 
 global.client = new Client({
   intents: [
